@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+  </head>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+  <body>
+    <h1>SignUp</h1>
+    <form method="POST" action="/user">
+      <!-- In HTML, the action attribute in a <form> tag specifies the URL (or the destination) where the form data should be 
+      submitted when the form is submitted by the user. -->
+      <label>Username: </label>
+      <input type="text" required name="name" />
+      <label>Email: </label>
+      <input type="text" required name="email" />
+      <label>Password: </label>
+      <input type="text" required name="password" />
+      <button type="submit">Signup</button>
+    </form>
+  </body>
+</html>
